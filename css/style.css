@@ -10,23 +10,38 @@
 
 .container{
     width: 1600px;
+    height: 800px;
     background-color: white;
-    margin: 0 auto;
+    margin: 200px auto ;
+   
 }
-
 
 
 img{
     float: left;
     height: 100px;
+    margin-right: 20px;
 }
 
 .cards > p,h2{
+    font-family: 'Fredoka', sans-serif;
     text-align: left;
     color: white;
     padding-left: 10px;
 }
 
+
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    color: rgb(186, 42, 121);
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-top: 10px;
+}
 
 /* Body */
 
@@ -38,13 +53,25 @@ body {
 
 .main-text{
     text-align: center;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+.sub-container{
+    width: 1000px;
+    margin: 0 auto ;
+    padding:20px 0 20px 0;
 }
 
 .cards{
-
-    background-color:rgb(33, 25, 36);
-    width: calc(100% / 3);
+    background-color:rgb(27, 18, 31);
+    width: calc(99% / 3);
     height: 100px;
-    max-width:400px;
     display:inline-block;
+    margin: 30px 0 20px 0;
+    
+}
+
+.email-text{
+    color: aqua;
 }
