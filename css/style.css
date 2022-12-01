@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Utils */
+/* Generals */
 
 .container{
     width: 1600px;
@@ -21,10 +21,24 @@ img{
     height: 100px;
 }
 
-    
+.cards > p,h2{
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+}
 
 
+/* Body */
 
+body {
+    background-color: black;
+}
+
+/* Main */
+
+.main-text{
+    text-align: center;
+}
 
 .cards{
 
@@ -33,15 +47,4 @@ img{
     height: 100px;
     max-width:400px;
     display:inline-block;
-    
-
-    
-
 }
-/* Body */
-
-body {
-    background-color: black;
-}
-
-/* Main */
